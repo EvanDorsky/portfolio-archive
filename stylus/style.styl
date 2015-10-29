@@ -1,0 +1,27 @@
+@import font
+@import vendor
+
+font-size = 18px
+
+doc-font()
+  font-family DIN
+  font-weight 300
+  font-size font-size
+
+*
+  padding 0px
+  margin 0px
+
+html
+  height 100%
+  width 100%
+
+body
+  doc-font()
+  background-color white
+  color black
+
+  height 100%
+
+ul
+  list-style none

@@ -1,0 +1,312 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("/font/x-font/icomoon.eot?-vv26i9");
+  src: url("/font/x-font/icomoon.eot?#iefix-vv26i9") format('embedded-opentype'), url("/font/x-font/icomoon.woff?-vv26i9") format('woff'), url("/font/x-font/icomoon.ttf?-vv26i9") format('truetype'), url("/font/x-font/icomoon.svg?-vv26i9#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-close:before {
+  content: "\e680";
+}
+@font-face {
+  font-family: DIN;
+  src: url("/font/din/DINOT-Light.otf") format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: DIN;
+  src: url("/font/din/DINOT.otf") format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: DIN;
+  src: url("/font/din/DINOT-Medium.otf") format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: DIN;
+  src: url("/font/din/DINOT-Bold.otf") format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url("/font/din/DINOT-Black.otf") format('opentype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url("/font/din/DINOT-CondLight.otf") format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url("/font/din/DINOT-Cond.otf") format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url("/font/din/DINOT-CondMedium.otf") format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url("/font/din/DINOT-CondBold.otf") format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url("/font/din/DINOT-CondBlack.otf") format('opentype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: BT Dutch Rm;
+  src: url("/font/dutch/Dutch801 Rm BT Roman.ttf.otf") format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: BT Dutch Rm;
+  src: url("/font/dutch/Dutch801 Rm BT Italic.ttf.otf") format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: BT Dutch Rm;
+  src: url("/font/dutch/Dutch801 Rm BT Bolt.ttf.otf") format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: BT Dutch Rm;
+  src: url("/font/dutch/Dutch801 Rm BT Bolt Italic.ttf.otf") format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+}
+a:visited {
+  color: rgba(0,0,0,0.8);
+}
+a:hover {
+  color: #000;
+}
+a:active {
+  color: #000;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: DIN;
+  font-weight: 300;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  height: 100%;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+}
+header {
+  padding: 0;
+  background-color: #1d2326;
+}
+header a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.7);
+}
+header a:visited {
+  color: rgba(0,0,0,0.7);
+}
+header a:hover {
+  color: #000;
+}
+header a:active {
+  color: #000;
+}
+header ul {
+  margin: 0 auto;
+}
+@media (min-width: 560px) {
+  header ul {
+    display: table;
+  }
+}
+header li {
+  padding: 4px 16px;
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: 0px -1px rgba(0,0,0,0.2);
+}
+@media (min-width: 560px) {
+  header li {
+    padding: 12px 16px;
+    display: inline-block;
+  }
+}
+header li.active {
+  background-color: #1194ce;
+}
+header li.active a {
+  color: #000;
+}
+.proj {
+  box-sizing: border-box;
+  overflow: scroll;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -moz-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  -o-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  padding: 1rem;
+  background-color: #eee;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.proj h1 {
+  -webkit-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  -o-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 3rem;
+}
+.proj h1 em {
+  font-family: DIN;
+  font-style: normal;
+  font-weight: 900;
+}
+.proj .proj-flex {
+  -webkit-flex: 1 0 auto;
+  -moz-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  -o-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  overflow: scroll;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  -o-align-items: stretch;
+  align-items: stretch;
+}
+.proj .proj-flex .proj-details {
+  display: none;
+}
+.proj .proj-flex .words {
+  -webkit-flex: 1 0 auto;
+  -moz-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  -o-flex: 1 0 auto;
+  flex: 1 0 auto;
+  max-width: 50%;
+  padding: 3rem;
+}
+.proj .proj-flex .words .proj-bg {
+  width: 100%;
+}
+.proj .proj-flex .proj-image {
+  -webkit-flex: 1 0 auto;
+  -moz-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  -o-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  -ms-align-self: center;
+  -o-align-self: center;
+  align-self: center;
+  box-sizing: border-box;
+  padding: 3rem;
+  max-width: 100%;
+}
+.proj .proj-flex .proj-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 75%;
+}
+.proj.open {
+  background-color: #fff;
+  min-height: 30rem;
+}
+.proj.open:hover {
+  cursor: auto;
+}
+.proj:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+#container {
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  min-height: 100%;
+  padding-bottom: 120px;
+  margin: auto;
+  max-width: 900px;
+}
+footer {
+  clear: both;
+  width: 100%;
+  display: table;
+  position: relative;
+  z-index: 2;
+  height: 120px;
+  margin-top: -120px;
+  font-size: 1.1em;
+  background-color: #1194ce;
+}
+footer #content {
+  padding: 2em;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 0.8em;
+  color: #95d8f6;
+  text-align: center;
+  text-shadow: inset-shadow;
+}
+footer #content .contact {
+  line-height: 3em;
+}
+footer #content .contact div {
+  display: inline;
+  padding: 0.5em;
+}
+footer #content a {
+  text-shadow: outset-shadow;
+}
+footer #content a:hover {
+  color: #000;
+}
+footer #content a:active {
+  color: #000;
+  text-shadow: inset-shadow;
+}
