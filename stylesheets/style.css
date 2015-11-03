@@ -105,8 +105,12 @@ body {
   font-weight: 300;
   font-size: 18px;
   background-color: #fff;
-  color: #000;
+  color: #425668;
   height: 100%;
+}
+.inverted {
+  background-color: #425668;
+  color: #fff;
 }
 ul {
   list-style: none;
@@ -147,10 +151,13 @@ ul {
 #main-splash .bio-text p {
   padding: 0.25rem 1.5rem;
 }
+#main-splash .bio-text p b {
+  font-weight: 500;
+}
 #main-splash .bio-text .name {
   font-size: 2.5rem;
 }
-#project-container {
+.section-container {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -164,7 +171,16 @@ ul {
   -o-justify-content: space-around;
   justify-content: space-around;
 }
-#project-container .project {
+.container-title {
+  -webkit-flex: 0 1 100%;
+  -moz-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  -o-flex: 0 1 100%;
+  flex: 0 1 100%;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.project {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: column;
@@ -184,9 +200,8 @@ ul {
   flex: 0 1 auto;
   margin: 0.5rem;
   text-align: center;
-  color: #000;
 }
-#project-container .project img {
+.project img {
   -webkit-flex: 0 1 auto;
   -moz-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -195,7 +210,7 @@ ul {
   width: auto;
   height: 10em;
 }
-#project-container .project .title {
+.project .title {
   -webkit-flex: 0 1 auto;
   -moz-flex: 0 1 auto;
   -ms-flex: 0 1 auto;
@@ -203,13 +218,4 @@ ul {
   flex: 0 1 auto;
   font-size: 1.2rem;
   width: 100%;
-}
-#project-container #title {
-  -webkit-flex: 0 1 100%;
-  -moz-flex: 0 1 100%;
-  -ms-flex: 0 1 100%;
-  -o-flex: 0 1 100%;
-  flex: 0 1 100%;
-  font-size: 2rem;
-  padding: 1rem;
 }

@@ -7,21 +7,29 @@ layout: default
     <div id="main-splash">
         <div class="overlay"></div>
         <div class="bio-text">
-            <p class="name">Evan</p>
+            <p class="name">Evan Dorsky</p>
             <p>
-                Electrical and computer engineer.
-            </p>
-            <p>
-                Student and course assistant at Olin College.
+                <b>Electrical and computer engineer</b> and
+                <br>
+                <b>course assistant</b> studying at Olin College.
             </p>
         </div>
     </div>
-    <div id="project-container">
-        <p id="title">Projects</p>
+    <div class="section-container">
+        <p class="container-title">Projects</p>
         {% for project in site.categories.projects %}
         <div class="project">
             <img src="/img/{{project.short}}/project.jpg">
             <p class="title">{{ project.title }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="section-container inverted">
+        <p class="container-title">Arts</p>
+        {% for art in site.categories.arts %}
+        <div class="project">
+            <img src="/img/{{art.short}}/project.jpg">
+            <p class="title">{{ art.title }}</p>
         </div>
         {% endfor %}
     </div>
