@@ -28,7 +28,6 @@ PROJECT_DIR="${DIR}"
  
 # Set up a list of directories to monitor.
 MONITOR=()
-MONITOR+=( "${PROJECT_DIR}/img" )
 MONITOR+=( "${PROJECT_DIR}/stylus" )
 MONITOR+=( "${PROJECT_DIR}/stylesheets" )
  

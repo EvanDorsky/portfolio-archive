@@ -1,11 +1,28 @@
 ---
 title: Evan Dorsky
 layout: default
-active: home
 ---
 
 <div id="container">
-    <div id="splash">
-        The content should be what makes this memorable. Not the presentation.
+    <div id="main-splash">
+        <div class="overlay"></div>
+        <div class="bio-text">
+            <p class="name">Evan</p>
+            <p>
+                Electrical and computer engineer.
+            </p>
+            <p>
+                Student and course assistant at Olin College.
+            </p>
+        </div>
+    </div>
+    <div id="project-container">
+        <p id="title">Projects</p>
+        {% for project in site.categories.projects %}
+        <div class="project">
+            <img src="/img/{{project.short}}/project.jpg">
+            <p class="title">{{ project.title }}</p>
+        </div>
+        {% endfor %}
     </div>
 </div>
