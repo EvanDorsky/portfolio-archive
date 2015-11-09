@@ -18,16 +18,21 @@ layout: default
     <div class="section-container">
         <p class="container-title">Projects</p>
         {% for project in site.categories.projects %}
-        <div class="project">
-            <img src="/img/{{project.short}}/project.jpg">
+        <div class="preview">
+            <div class="image-cont">
+                <div class="overlay"></div>
+                <img src="/img/{{project.short}}/project.jpg">
+            </div>
             <p class="title">{{ project.title }}</p>
+            <p class="desc">{{ project.desc }}</p>
         </div>
         {% endfor %}
     </div>
     <div class="section-container inverted">
         <p class="container-title">Arts</p>
         {% for art in site.categories.arts %}
-        <div class="project">
+        <div class="art preview">
+            <div class="overlay"></div>
             <img src="/img/{{art.short}}/project.jpg">
             <p class="title">{{ art.title }}</p>
         </div>

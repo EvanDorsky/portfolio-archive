@@ -1,13 +1,13 @@
 @import font
 @import vendor
 
-blue-color = #425668
+blue-color = #223040
 
 font-size = 18px
 
 doc-font()
-    font-family DIN
-    font-weight 300
+    font-family Raleway
+    font-weight 100
     font-size font-size
 
 *
@@ -55,7 +55,6 @@ ul
         z-index 1
 
         font-size 2rem
-        
         color white
 
         padding-bottom 1rem
@@ -80,24 +79,45 @@ ul
     font-size 2rem
     padding 1rem
 
-.project
-    display flex
-    flex-flow column
+    font-weight 400
 
+.preview
     align-items center
+    position relative
     
-    flex 0 1 auto
+    width 20rem
+    margin 1.5rem .5rem
+    
+    .image-cont
+        position relative
+        height 15rem
+        margin 1rem auto
 
-    margin .5rem
-    
     img
-        flex 0 1 auto
-        width auto
-        height 10em
+        width 100%
+    
+    .overlay
+        position absolute
+        width 100%
+        height 100%
+        
+        background linear-gradient(#0000, #0000 60%, #0007)
     
     .title
-        flex 0 1 auto
-        font-size 1.2rem
+        font-family Bebas
+        font-size 2rem
+        font-weight 500
+        
         width 100%
         
     text-align center
+
+.preview.art
+    width auto
+    
+    img
+        height 24rem
+        width auto
+    
+    .overlay
+        height 24rem

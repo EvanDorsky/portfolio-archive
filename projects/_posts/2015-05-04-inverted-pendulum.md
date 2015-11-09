@@ -10,10 +10,7 @@ short: inverted-pendulum
 banner-position: .45
 team: 2
 
-header: [
-"We designed, built, modeled, and controlled an inverted pendulum system for our Control theory class.",
-""
-]
+desc: "Designed, built, modeled, and controlled a rotary inverted pendulum, learning about feedback control systems."
 
 specs: [
 [code-fork, [Arduino C, MATLAB]],

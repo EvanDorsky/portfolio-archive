@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MOSFET Power Driver
+title: Power MOSFET Driver
 
 importance: 0
 
@@ -14,6 +14,8 @@ specs: [
 [bolt, ['Power Electronics']],
 [floppy-o, [LTSpice]]
 ]
+
+desc: "Built and analyzed a driver for an nMOS half bridge that could pull the gate of the high MOSFET above the power supply voltage."
 
 header: [
 "We built and analyzed a power MOSFET gate drive circuit to get a practical angle on the material from our Circuits class.",
