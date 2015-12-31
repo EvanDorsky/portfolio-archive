@@ -33,7 +33,7 @@ Physical Microphone Configuration
 
 # Seeing Sound
 
-I created an audio visualizer to give my presentations another level of appeal and have fun with some new APIs. Try it in your browser: [__Spectrogram__ (requires Chrome)](https://evandorsky.github.io/audio-vis)
+I created an audio visualizer to give my presentations another level of appeal and have fun with some new APIs. Try it in your browser: [https://evandorsky.github.io/audio-vis](https://evandorsky.github.io/audio-vis) (requires Chrome \- if it doesn't work, copy and paste the link. The _https_ is necessary.)
 
 ### Acknowledgements
 
