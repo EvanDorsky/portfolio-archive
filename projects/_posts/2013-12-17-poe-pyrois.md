@@ -10,7 +10,7 @@ short: poe-pyrois
 banner-position: .45
 team: 4
 
-desc: "Used a motor to harvest energy from the pedaling of a bike. Learned about DC-DC conversion and various energy storage devices (including supercapacitors)."
+desc: "Used a motor to harvest energy from the pedaling of a bike. Learned about DC-DC conversion and evaluated multiple energy storage methods (including supercapacitors)."
 
 header: [
 "We built a bike stand that let a user pedal to charge a bank of supercapacitors that could be discharged to charge USB devices.",
