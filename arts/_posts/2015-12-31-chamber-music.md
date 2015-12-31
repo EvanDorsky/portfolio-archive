@@ -31,6 +31,10 @@ Physical Microphone Configuration
 ![Mid-Side from the Side](/img/chamber-music/midsideside.jpg)
 ![Mid-Side from the Front](/img/chamber-music/midsidefront.jpg)
 
+# Seeing Sound
+
+I created an audio visualizer to give my presentations another level of appeal and have fun with some new APIs. Try it in your browser: [__Spectrogram__ (requires Chrome)](https://evandorsky.github.io/audio-vis)
+
 ### Acknowledgements
 
 Thanks to Caitrin Lynch, the AHS Capstone professor, and Laura Bossert, my Capstone mentor and viola teacher. With Laura's help, I made significant advances in how I think about and play music. I also learned ways to grow as I continue to play music.
